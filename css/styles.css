@@ -180,3 +180,7 @@ img{
 .marginbot{
     margin-bottom: 2rem;
 }
+
+.alinear{
+    margin: 0 auto;
+}
