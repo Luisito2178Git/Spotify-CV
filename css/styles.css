@@ -1,3 +1,13 @@
+@import url(https://db.onlinewebfonts.com/c/01173b246d9d9ea808ea75a26b3b61bb?family=CircularSpotifyTxT-Black);
+@font-face {
+    font-family: "CircularSpotifyTxT-Black";
+    src: url("https://db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.eot");
+    src: url("https://db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.svg#CircularSpotifyTxT-Black")format("svg");
+}
 :root{
     --fondoSecundario: #5A5A5A;
     --fondoPrimario: #191414;
@@ -54,13 +64,6 @@ h4{
 }
 img{
     max-width: 100%;
-}
-
-@font-face {
-    font-family: 'CircularSpotifyTxT-Black';
-    src: url('https://db.onlinewebfonts.com/c/01173b246d9d9ea808ea75a26b3b61bb?family=CircularSpotifyTxT-Black') format('woff2');
-    font-weight: normal;
-    font-style: normal;
 }
 
 /**Utilidades**/
