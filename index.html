@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="Preload" href="css/styles.css" as="style">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preload" href="https://db.onlinewebfonts.com/c/01173b246d9d9ea808ea75a26b3b61bb?family=CircularSpotifyTxT-Black" as="font" type="font/woff2" crossorigin="anonymous">
+    <link href="https://db.onlinewebfonts.com/c/01173b246d9d9ea808ea75a26b3b61bb?family=CircularSpotifyTxT-Black" rel="stylesheet">
     <meta property="og:title" content="Luis Pérez CV">
     <meta property="og:description" content="Hola, este es mi currículum. Dale un vistazo">
     <meta property="og:image" content="https://luis-cv.netlify.app/img/prev.png">
@@ -36,33 +38,41 @@
                 <hr class="line">
                 <div class="separar marginbot">
                     <img class="icon--text" src="/img/exp.jpg" alt="">
-                    <p class="no-margin"><span class="sub">Freelance</span><br>
-                        <span class="texto-all">Trabajé en varios proyectos los cuales se pueden ver a continuacion:<br>
-                        <a class="enlace" href="https://frontendstore2178.netlify.app/">· FrontEndStore</a> & <a class="enlace" href="https://github.com/Luisito2178Git/FrontEndStore">Repositorio</a><br>
-                        <a class="enlace" href="https://blogcafe2178.netlify.app/">· Blog de Café</a> & <a class="enlace" href="https://github.com/Luisito2178Git/BlogCafe">Repositorio</a><br>
-                        <a class="enlace" href="https://conciertorockespanol2178.netlify.app/">· Concierto de Rock</a> & <a class="enlace" href="https://github.com/Luisito2178Git/Festival-de-Musica">Repositorio</a><br>
-                        <a class="enlace" href="https://main--fastidious-sorbet-dbdd4e.netlify.app/">· Página web con TypeScript Bootstrap y React con APIS</a> & <a class="enlace" href="https://github.com/Luisito2178Git/PokemonReactType">Repositorio</a>
-                        </span><br>
-                        <span class="fechas">Septiembre 2022 - Actual</span><br>
-                    </p> 
+                    <div> <!-- Parte del Grid para la informacion -->
+                        <p class="no-margin"><span class="sub">Freelance</span></p>
+                        <p><span class="texto-all">Trabajé en varios proyectos los cuales se pueden ver a continuacion:</p>
+                        <ul>
+                            <li><a class="enlace" href="https://frontendstore2178.netlify.app/">FrontEndStore</a> & <a class="enlace" href="https://github.com/Luisito2178Git/FrontEndStore">Repositorio</a></li>
+                            <li><a class="enlace" href="https://blogcafe2178.netlify.app/">Blog de Café</a> & <a class="enlace" href="https://github.com/Luisito2178Git/BlogCafe">Repositorio</a></li>
+                            <li><a class="enlace" href="https://conciertorockespanol2178.netlify.app/">Concierto de Rock</a> & <a class="enlace" href="https://github.com/Luisito2178Git/Festival-de-Musica">Repositorio</a></li>
+                            <li><a class="enlace" href="https://main--fastidious-sorbet-dbdd4e.netlify.app/">Página web con TypeScript Bootstrap y React con APIS</a> & <a class="enlace" href="https://github.com/Luisito2178Git/PokemonReactType">Repositorio</a><br></li>
+                        </ul>
+                        <p><span class="fechas">Septiembre 2022 - Actual</span><br></p>
+                    </div>
                 </div>
                 <h2 class="no-margin">Certificados</h2>
                 <hr class="line">
                 <div class="separar marginbot">
                     <img class="icon--text" src="/img/udemy.png" alt="">
-                    <p class="no-margin"><span class="sub__low">Certificados sobre mi Experiencia</span><br>
-                        <span class="texto-all">Me gusta y me apasiona el Desarrollo web:<br>
-                        <a class="enlace" href="https://www.udemy.com/certificate/UC-dfe61b46-f1b2-49df-9ba1-020e4bafa7d6/" target="_blank">· Universidad Desarrollo Web - FrondEnd Web Developer</a><br>
-                        <a class="enlace" href="https://www.udemy.com/certificate/UC-c04ee81c-a68a-410d-a226-098417cd687f/" target="_blank">· JS for Beginners</a><br>
-                        <a class="enlace" href="https://www.udemy.com/certificate/UC-1ddf6c81-a89c-41a6-8c9d-0fd8f3c4cc2c/" target="_blank">· Master Classes for Web (HTML,CSS,JS,SEO)</a><br>
-                        <a class="enlace" href="https://www.udemy.com/certificate/UC-003cefb7-2caa-4ff5-9ce2-5de43dae5fe5/" target="_blank">· Git and GitHub</a><br>
-                        <a class="enlace" href="https://www.udemy.com/certificate/UC-592b9c57-5ace-44ce-831a-a6dd6178f37f/" target="_blank">· Master Web &  Mobile Design: Figma, UI/UX (Nuevo)</a><br>
-                        <span>Actualmente estoy cursando:<br>
-                        <a class="enlace" href="https://www.udemy.com/course/desarrollo-web-completo-con-html5-css3-js-php-y-mysql/" target="_blank">· Aprende Desarrollo Web HTML, CSS, SASS, Workflows, JavaScript, Fetch (Antes AJAX), PHP, POO - MVC, MySQL - SQL y API's</a><br>
-                        </span><br>
-                    </p> 
+                    <div> <!-- Parte del Grid para la informacion -->
+                        <p class="no-margin"><span class="sub__low">Certificados sobre mi Experiencia</span>
+                            <p><span class="texto-all">Me gusta y me apasiona el Desarrollo web:</span></p>
+                        <ul>
+                            <li><a class="enlace" href="https://www.udemy.com/certificate/UC-dfe61b46-f1b2-49df-9ba1-020e4bafa7d6/" target="_blank">Universidad Desarrollo Web - FrondEnd Web Developer</a></li>
+                            <li><a class="enlace" href="https://www.udemy.com/certificate/UC-c04ee81c-a68a-410d-a226-098417cd687f/" target="_blank">JS for Beginners</a></li>
+                            <li><a class="enlace" href="https://www.udemy.com/certificate/UC-1ddf6c81-a89c-41a6-8c9d-0fd8f3c4cc2c/" target="_blank">Master Classes for Web (HTML,CSS,JS,SEO)</a></li>
+                            <li><a class="enlace" href="https://www.udemy.com/certificate/UC-003cefb7-2caa-4ff5-9ce2-5de43dae5fe5/" target="_blank">Git and GitHub</a></li>
+                            <li><a class="enlace" href="https://www.udemy.com/certificate/UC-592b9c57-5ace-44ce-831a-a6dd6178f37f/" target="_blank">Master Web &  Mobile Design: Figma, UI/UX (Nuevo)</a></li>
+                        </ul>
+                        <p><span class="texto-all">Actualmente estoy cursando:<br></p>
+                        <ul>
+                            <li><a class="enlace" href="https://www.udemy.com/course/desarrollo-web-completo-con-html5-css3-js-php-y-mysql/" target="_blank">Aprende Desarrollo Web HTML, CSS, SASS, Workflows, JavaScript, Fetch (Antes AJAX), PHP, POO - MVC, MySQL - SQL y API's</a></li>
+                        </ul>
+                        <br>
+                    </div>
                 </div>  
                </div>
+
             <div class="info2">
                 <h2 class="no-margin">Educación</h2>
                 <hr class="line">
@@ -74,32 +84,40 @@
                 <hr class="line">
                 <div class="separar marginbot">
                     <img class="icon--text" src="/img/skills.jpg" alt="">
-                    <p class="no-margin"><span class="sub__low">En lo que destaco más:</span><br>
-                        · Proactividad <br>
-                        · Trabajo en equipo <br>
-                        · Aprendizaje continuo <br>
-                        · Responsabilidad <br>
-                        · Proactividad <br>
-                        · Adaptabilidad <br>
-                        · Trabajo bajo presión <br>
+                    <div> <!-- Parte del Grid para la informacion -->
+                            <p class="no-margin"><span class="sub__low">En lo que destaco más:</span><br>
+                            <ul>
+                                <li>Proactividad</li>
+                                <li>Trabajo en equipo</li>
+                                <li>Adaptabilidad</li>
+                                <li>Aprendizaje continuo</li>
+                                <li>Responsabilidad</li>
+                                <li>Trabajo bajo presión</li>
+                                <li>Resolucion de problemas</li>
+                            </ul>
+                        </div>
                 </div>
                 <h2 class="no-margin">Tecnologías</h2>
                 <hr class="line">
                 <div class="separar marginbot">
-                    <img class="icon--text" src="/img/tec.png" alt="">
-                    <p class="no-margin"><span class="sub__low">Lo que mejor hago:</span><br>
-                        · HTML/CSS (intermedio/Avanzado) <br>
-                        · JS (Intermedio)<br>
-                        · GIT (Intermedio)<br>
-                        · TypeScript (Basico/intermedio)<br>
-                        · Mysql (Basico/Intermedio)<br>
-                        · PHP (Basico/Intermedio)<br>
-                        · Figma UX/UI(Intermedio)<br>
-                        · Python (Basico)<br>
-                        · C++ (Basico)<br>
-                        · React (Basico)<br>
-                        · API's (Basico/Intermedio) <br>
-                        · Ingles (B2) <br></p> 
+                    <img class="icon--text" src="/img/tec.png" alt=""> <!-- Parte del Grid para la imagen -->
+                    <div> <!-- Parte del Grid para la informacion -->
+                        <p class="no-margin"><span class="sub__low">Lo que mejor hago:</span></p>
+                        <ul>
+                            <li>HTML/CSS (intermedio/Avanzado) </li>
+                            <li>JS (Intermedio)</li>
+                            <li>GIT (Intermedio)</li>
+                            <li>TypeScript (Basico/intermedio)</li>
+                            <li>Mysql (Basico/Intermedio)</li>
+                            <li>PHP (Basico/Intermedio)</li>
+                            <li>Figma UX/UI(Intermedio)</li>
+                            <li>React (Basico)</li>
+                            <li>API's (Basico) </li>
+                            <li>Ingles (B2) </li>
+                            <li>Python (Basico)</li>
+                            <li>C++ (Basico)</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
