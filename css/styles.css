@@ -193,3 +193,9 @@ img{
 .alinear{
     margin: 0 auto;
 }
+
+.song{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
